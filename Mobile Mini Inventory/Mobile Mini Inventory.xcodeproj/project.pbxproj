@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559AEB371426A33F004001A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559AEB361426A33F004001A7 /* UIKit.framework */; };
+		559AEB391426A33F004001A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559AEB381426A33F004001A7 /* Foundation.framework */; };
+		559AEB3B1426A33F004001A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559AEB3A1426A33F004001A7 /* CoreGraphics.framework */; };
+		559AEB411426A33F004001A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 559AEB3F1426A33F004001A7 /* InfoPlist.strings */; };
+		559AEB431426A33F004001A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559AEB421426A33F004001A7 /* main.m */; };
+		559AEB471426A33F004001A7 /* Mobile_Mini_InventoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559AEB461426A33F004001A7 /* Mobile_Mini_InventoryAppDelegate.m */; };
+		559AEB4A1426A33F004001A7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559AEB481426A33F004001A7 /* MainWindow.xib */; };
+		559AEB4D1426A33F004001A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559AEB4C1426A33F004001A7 /* FirstViewController.m */; };
+		559AEB501426A33F004001A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559AEB4F1426A33F004001A7 /* SecondViewController.m */; };
+		559AEB531426A33F004001A7 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559AEB511426A33F004001A7 /* FirstView.xib */; };
+		559AEB561426A33F004001A7 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559AEB541426A33F004001A7 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		559AEB321426A33F004001A7 /* Mobile Mini Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Mini Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559AEB361426A33F004001A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		559AEB381426A33F004001A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		559AEB3A1426A33F004001A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		559AEB3E1426A33F004001A7 /* Mobile Mini Inventory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobile Mini Inventory-Info.plist"; sourceTree = "<group>"; };
+		559AEB401426A33F004001A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		559AEB421426A33F004001A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		559AEB441426A33F004001A7 /* Mobile Mini Inventory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobile Mini Inventory-Prefix.pch"; sourceTree = "<group>"; };
+		559AEB451426A33F004001A7 /* Mobile_Mini_InventoryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mobile_Mini_InventoryAppDelegate.h; sourceTree = "<group>"; };
+		559AEB461426A33F004001A7 /* Mobile_Mini_InventoryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Mini_InventoryAppDelegate.m; sourceTree = "<group>"; };
+		559AEB491426A33F004001A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		559AEB4B1426A33F004001A7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		559AEB4C1426A33F004001A7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		559AEB4E1426A33F004001A7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		559AEB4F1426A33F004001A7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		559AEB521426A33F004001A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		559AEB551426A33F004001A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559AEB2F1426A33F004001A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559AEB371426A33F004001A7 /* UIKit.framework in Frameworks */,
+				559AEB391426A33F004001A7 /* Foundation.framework in Frameworks */,
+				559AEB3B1426A33F004001A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559AEB271426A33F004001A7 = {
+			isa = PBXGroup;
+			children = (
+				559AEB3C1426A33F004001A7 /* Mobile Mini Inventory */,
+				559AEB351426A33F004001A7 /* Frameworks */,
+				559AEB331426A33F004001A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559AEB331426A33F004001A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559AEB321426A33F004001A7 /* Mobile Mini Inventory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559AEB351426A33F004001A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559AEB361426A33F004001A7 /* UIKit.framework */,
+				559AEB381426A33F004001A7 /* Foundation.framework */,
+				559AEB3A1426A33F004001A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		559AEB3C1426A33F004001A7 /* Mobile Mini Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				559AEB451426A33F004001A7 /* Mobile_Mini_InventoryAppDelegate.h */,
+				559AEB461426A33F004001A7 /* Mobile_Mini_InventoryAppDelegate.m */,
+				559AEB481426A33F004001A7 /* MainWindow.xib */,
+				559AEB4B1426A33F004001A7 /* FirstViewController.h */,
+				559AEB4C1426A33F004001A7 /* FirstViewController.m */,
+				559AEB4E1426A33F004001A7 /* SecondViewController.h */,
+				559AEB4F1426A33F004001A7 /* SecondViewController.m */,
+				559AEB511426A33F004001A7 /* FirstView.xib */,
+				559AEB541426A33F004001A7 /* SecondView.xib */,
+				559AEB3D1426A33F004001A7 /* Supporting Files */,
+			);
+			path = "Mobile Mini Inventory";
+			sourceTree = "<group>";
+		};
+		559AEB3D1426A33F004001A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559AEB3E1426A33F004001A7 /* Mobile Mini Inventory-Info.plist */,
+				559AEB3F1426A33F004001A7 /* InfoPlist.strings */,
+				559AEB421426A33F004001A7 /* main.m */,
+				559AEB441426A33F004001A7 /* Mobile Mini Inventory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559AEB311426A33F004001A7 /* Mobile Mini Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559AEB591426A33F004001A7 /* Build configuration list for PBXNativeTarget "Mobile Mini Inventory" */;
+			buildPhases = (
+				559AEB2E1426A33F004001A7 /* Sources */,
+				559AEB2F1426A33F004001A7 /* Frameworks */,
+				559AEB301426A33F004001A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile Mini Inventory";
+			productName = "Mobile Mini Inventory";
+			productReference = 559AEB321426A33F004001A7 /* Mobile Mini Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559AEB291426A33F004001A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Dave Hilton";
+			};
+			buildConfigurationList = 559AEB2C1426A33F004001A7 /* Build configuration list for PBXProject "Mobile Mini Inventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 559AEB271426A33F004001A7;
+			productRefGroup = 559AEB331426A33F004001A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559AEB311426A33F004001A7 /* Mobile Mini Inventory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559AEB301426A33F004001A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559AEB411426A33F004001A7 /* InfoPlist.strings in Resources */,
+				559AEB4A1426A33F004001A7 /* MainWindow.xib in Resources */,
+				559AEB531426A33F004001A7 /* FirstView.xib in Resources */,
+				559AEB561426A33F004001A7 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559AEB2E1426A33F004001A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559AEB431426A33F004001A7 /* main.m in Sources */,
+				559AEB471426A33F004001A7 /* Mobile_Mini_InventoryAppDelegate.m in Sources */,
+				559AEB4D1426A33F004001A7 /* FirstViewController.m in Sources */,
+				559AEB501426A33F004001A7 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		559AEB3F1426A33F004001A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559AEB401426A33F004001A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		559AEB481426A33F004001A7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559AEB491426A33F004001A7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		559AEB511426A33F004001A7 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559AEB521426A33F004001A7 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		559AEB541426A33F004001A7 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559AEB551426A33F004001A7 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559AEB571426A33F004001A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		559AEB581426A33F004001A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559AEB5A1426A33F004001A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile Mini Inventory/Mobile Mini Inventory-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Mini Inventory/Mobile Mini Inventory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		559AEB5B1426A33F004001A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile Mini Inventory/Mobile Mini Inventory-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Mini Inventory/Mobile Mini Inventory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559AEB2C1426A33F004001A7 /* Build configuration list for PBXProject "Mobile Mini Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559AEB571426A33F004001A7 /* Debug */,
+				559AEB581426A33F004001A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559AEB591426A33F004001A7 /* Build configuration list for PBXNativeTarget "Mobile Mini Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559AEB5A1426A33F004001A7 /* Debug */,
+				559AEB5B1426A33F004001A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559AEB291426A33F004001A7 /* Project object */;
+}
