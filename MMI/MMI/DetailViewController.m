@@ -11,7 +11,7 @@
 @interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 - (void)configureView;
-@end
+@end  
 
 @implementation DetailViewController
 
