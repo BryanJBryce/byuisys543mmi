@@ -7,6 +7,8 @@
 //
 
 #import "EntryViewController.h"
+#import "Globals.h"
+#import "BranchData.h"
 
 #define CONTAINERSPACE 264
 #define ADDCONTAINERDEFAULTX

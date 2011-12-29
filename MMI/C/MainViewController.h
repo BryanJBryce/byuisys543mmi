@@ -12,12 +12,16 @@
 
     IBOutlet UITextField *yardNameTextField;
     IBOutlet UIImageView *mobileMiniContainer;
+	IBOutlet UIButton *loadDataButton;
     
     NSString *yardName;
 }
 @property (strong, nonatomic) IBOutlet UITextField *yardNameTextField;
 @property (strong, nonatomic) IBOutlet UIImageView *mobileMiniContainer;
+@property (strong, nonatomic) IBOutlet UIButton *loadDataButton;
 
 @property (strong, nonatomic) NSString *yardName;
+
+- (IBAction)loadDataFromXML;
 
 @end

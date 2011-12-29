@@ -7,10 +7,13 @@
 //
 
 #import "MainViewController.h"
+#import "BranchData.h"
+#import "Globals.h"
 
 @implementation MainViewController
 
 @synthesize yardNameTextField, mobileMiniContainer, yardName;
+@synthesize loadDataButton;
 
 - (void)didReceiveMemoryWarning
 {
@@ -70,6 +73,13 @@
     //yardNameTextField.text = nil;
     
     return YES;
+}
+
+
+// Temporary method to trigger XML load...
+- (void)loadDataFromXML
+{
+	[BranchData startNewStockTakeForBranch:ALL_LOCATIONS];
 }
 
 @end

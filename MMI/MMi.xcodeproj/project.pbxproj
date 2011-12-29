@@ -25,6 +25,8 @@
 		24BCD01914A96EB7006DAD14 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BCD01814A96EB7006DAD14 /* Section.m */; };
 		24BCD01C14A9716C006DAD14 /* Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BCD01B14A9716C006DAD14 /* Container.m */; };
 		24BCD01E14AA51F4006DAD14 /* containerWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BCD01D14AA51F4006DAD14 /* containerWhite.png */; };
+		550E58D314ABF6B40081E429 /* BranchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E58D214ABF6B40081E429 /* BranchData.m */; };
+		550E58D714AC36280081E429 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E58D614AC36280081E429 /* XMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +34,10 @@
 		24BCCFC214A94E46006DAD14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24BCCFC414A94E46006DAD14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24BCCFC614A94E46006DAD14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24BCCFCA14A94E46006DAD14 /* MMi-Info.plist */ = {isa = PBXFileReference; path = "MMi-Info.plist"; sourceTree = "<group>"; };
+		24BCCFCA14A94E46006DAD14 /* MMi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMi-Info.plist"; sourceTree = "<group>"; };
 		24BCCFCC14A94E46006DAD14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24BCCFCE14A94E46006DAD14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24BCCFD014A94E46006DAD14 /* MMi-Prefix.pch */ = {isa = PBXFileReference; path = "MMi-Prefix.pch"; sourceTree = "<group>"; };
+		24BCCFD014A94E46006DAD14 /* MMi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMi-Prefix.pch"; sourceTree = "<group>"; };
 		24BCCFD114A94E46006DAD14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24BCCFD214A94E46006DAD14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24BCCFD514A94E46006DAD14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,11 @@
 		24BCD01A14A9716C006DAD14 /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
 		24BCD01B14A9716C006DAD14 /* Container.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Container.m; sourceTree = "<group>"; };
 		24BCD01D14AA51F4006DAD14 /* containerWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = containerWhite.png; sourceTree = "<group>"; };
+		550E58CC14ABF0A40081E429 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		550E58D114ABF6B40081E429 /* BranchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchData.h; sourceTree = "<group>"; };
+		550E58D214ABF6B40081E429 /* BranchData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchData.m; sourceTree = "<group>"; };
+		550E58D514AC36280081E429 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		550E58D614AC36280081E429 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +82,7 @@
 		24BCCFB314A94E46006DAD14 = {
 			isa = PBXGroup;
 			children = (
-				24BCCFC814A94E46006DAD14 /* C */,
+				24BCCFC814A94E46006DAD14 /* MMi */,
 				24BCCFC114A94E46006DAD14 /* Frameworks */,
 				24BCCFBF14A94E46006DAD14 /* Products */,
 			);
@@ -99,9 +106,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24BCCFC814A94E46006DAD14 /* C */ = {
+		24BCCFC814A94E46006DAD14 /* MMi */ = {
 			isa = PBXGroup;
 			children = (
+				550E58CC14ABF0A40081E429 /* Globals.h */,
 				24BCCFD114A94E46006DAD14 /* AppDelegate.h */,
 				24BCCFD214A94E46006DAD14 /* AppDelegate.m */,
 				24BCCFD414A94E46006DAD14 /* MainStoryboard.storyboard */,
@@ -114,8 +122,10 @@
 				24BCCFED14A9511C006DAD14 /* SummaryViewController.h */,
 				24BCCFEE14A9511C006DAD14 /* SummaryViewController.m */,
 				24BCD01614A96E86006DAD14 /* Models */,
+				550E58D414AC35CF0081E429 /* Helper Classes */,
 				24BCCFC914A94E46006DAD14 /* Supporting Files */,
 			);
+			name = MMi;
 			path = C;
 			sourceTree = "<group>";
 		};
@@ -142,8 +152,19 @@
 				24BCD01814A96EB7006DAD14 /* Section.m */,
 				24BCD01A14A9716C006DAD14 /* Container.h */,
 				24BCD01B14A9716C006DAD14 /* Container.m */,
+				550E58D114ABF6B40081E429 /* BranchData.h */,
+				550E58D214ABF6B40081E429 /* BranchData.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		550E58D414AC35CF0081E429 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				550E58D514AC36280081E429 /* XMLParser.h */,
+				550E58D614AC36280081E429 /* XMLParser.m */,
+			);
+			name = "Helper Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +242,8 @@
 				24BCCFEF14A9511C006DAD14 /* SummaryViewController.m in Sources */,
 				24BCD01914A96EB7006DAD14 /* Section.m in Sources */,
 				24BCD01C14A9716C006DAD14 /* Container.m in Sources */,
+				550E58D314ABF6B40081E429 /* BranchData.m in Sources */,
+				550E58D714AC36280081E429 /* XMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
